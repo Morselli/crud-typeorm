@@ -1,4 +1,4 @@
-import { AppDataSource } from "./data-source"
+import { AppDataSource } from "./database/data-source"
 import express = require('express')
 
 AppDataSource.initialize().then(async () => {
